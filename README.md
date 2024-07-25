@@ -1,7 +1,7 @@
 ### Task Description for Senior Frontend Developer
 
 #### Overview
-You will be tasked with creating the admin interface for managing anamnesis forms within the ClinicOS system. This interface will include features for listing, creating, updating, and deleting anamnesis forms, sections, and questions. You will use Vite, React, TailwindCSS, and TypeScript, along with specific libraries for handling drag-and-drop functionality and table displays.
+You will be tasked with creating the admin interface for managing anamnesis forms within the ClinicOS system. This interface will include features for listing, creating, updating, and deleting anamnesis forms, sections, and questions. You will use Vite, React, TailwindCSS, and TypeScript, along with specific libraries for handling drag-and-drop functionality and table displays. Additionally, you will implement unit tests and end-to-end tests using Playwright.
 
 #### Technologies and Libraries
 - **Vite** for building the application
@@ -10,11 +10,15 @@ You will be tasked with creating the admin interface for managing anamnesis form
 - **TypeScript** for type safety
 - **DndKit** for drag-and-drop functionality
 - **React-Table** for displaying tables
+- **Jest** and **React Testing Library** for unit testing
+- **Playwright** for end-to-end testing
 
 #### Task Requirements
 1. **Project Setup**
    - Initialize a new Vite project with React and TypeScript.
    - Set up TailwindCSS for styling.
+   - Configure Jest and React Testing Library for unit tests.
+   - Set up Playwright for end-to-end testing.
 
 2. **Pages and Functionality**
    - Create the following pages with the specified functionalities:
@@ -47,6 +51,15 @@ You will be tasked with creating the admin interface for managing anamnesis form
 4. **Debounced Search Functionality**
    - Implement a search input with debounce functionality.
    - Simulate an asynchronous search to fetch and display results.
+
+#### Testing Requirements
+5. **Unit Tests**
+   - Write unit tests using Jest and React Testing Library for all components.
+   - Ensure comprehensive test coverage for functionality and edge cases.
+
+6. **End-to-End Tests**
+   - Write end-to-end tests using Playwright to test the complete flow of creating, updating, and deleting anamnesis forms, sections, and questions.
+   - Ensure that the UI behaves correctly, and the expected data is displayed and manipulated.
 
 #### Detailed Page Descriptions
 **1. List of All Anamnesis Forms**
@@ -92,6 +105,7 @@ You will be tasked with creating the admin interface for managing anamnesis form
 - **Usage of Libraries**: Effective use of `react-table` and `DndKit`.
 - **TypeScript Usage**: Proper use of TypeScript for type safety.
 - **Debounced Search**: Implementation of search with debounce and async simulation.
+- **Testing**: Comprehensive unit tests and end-to-end tests.
 - **Documentation**: Clear instructions and well-documented code.
 
 Good luck, and we look forward to reviewing your submission!
