@@ -37,6 +37,11 @@ You will be tasked with creating the admin interface for managing anamnesis form
    **3. Create Anamnesis Form Page**
    - Provide a form to create a new anamnesis form with fields for the title and description.
    - Allow adding multiple sections, and within each section, allow adding multiple questions.
+   - When adding a question, support the following types:
+     - Short text
+     - Long text
+     - Multiple choice
+     - Date time
    - Use `DndKit` for drag-and-drop functionality to reorder sections and questions.
 
    **4. Update Anamnesis Form Page**
@@ -81,6 +86,7 @@ You will be tasked with creating the admin interface for managing anamnesis form
    - Create a form to input the title and description of a new anamnesis form.
    - Allow dynamically adding sections and questions.
    - Implement drag-and-drop for reordering sections and questions using `DndKit`.
+   - Provide the ability to add questions of different types: short text, long text, multiple choice, and date time.
 
 **4. Update Anamnesis Form Page**
    - Similar to the create page, but with fields pre-populated with existing data.
